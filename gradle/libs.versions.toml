@@ -54,6 +54,7 @@ kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime",
 mongodb-realm = { group = "io.realm.kotlin", name = "library-base", version.ref = "realm" }
 kotlin-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 stately-common = { group = "co.touchlab", name = "stately-common", version.ref = "statelyCommon" }
+
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
