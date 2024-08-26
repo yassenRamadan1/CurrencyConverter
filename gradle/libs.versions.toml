@@ -22,6 +22,8 @@ voyager = "1.1.0-beta02"
 datetime = "0.6.0"
 koinCore = "3.4.3"
 coroutines = "1.8.1"
+material3Android = "1.2.1"
+navigationRuntimeKtx = "2.7.7"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -54,6 +56,8 @@ kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime",
 mongodb-realm = { group = "io.realm.kotlin", name = "library-base", version.ref = "realm" }
 kotlin-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 stately-common = { group = "co.touchlab", name = "stately-common", version.ref = "statelyCommon" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
