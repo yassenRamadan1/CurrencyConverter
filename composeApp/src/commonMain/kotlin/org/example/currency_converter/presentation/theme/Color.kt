@@ -1,4 +1,4 @@
-package org.example.currency_converter.ui.theme
+package org.example.currency_converter.presentation.theme
 import androidx.compose.ui.graphics.Color
 
 val primaryLight = Color(0xFF446732)
