@@ -1,4 +1,11 @@
 package org.example.currency_converter.data.repository
 
-class CurrencyConverterRepositoryImp {
+import org.example.currency_converter.data.remote.model.Currency
+import org.example.currency_converter.data.remote.model.RequestState
+
+class CurrencyConverterRepositoryImp : CurrencyConverterRepository {
+
+    override fun getLastExchangeRate(): RequestState<List<Currency>> {
+TODO()
+    }
 }
