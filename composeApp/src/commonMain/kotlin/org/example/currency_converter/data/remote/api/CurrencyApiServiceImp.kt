@@ -34,10 +34,10 @@ class CurrencyApiServiceImp: CurrencyApiService {
     }
 
     override suspend fun getExchangeRate(): RequestState<List<Currency>> {
-        val response = httpClient.get(ENDPOINT)
+        val response = httpClient.get(ENDPOINT) // return json response
         return  try {
             if (response.status.value == 200){
-                val apiResponse = Json.decodeFromString<ApiResponse>(response.body())
+                val apiResponse = Json.decodeFromString<ApiResponse>(response.body()) // convert json response to ApiResponse
                  RequestState.Success(apiResponse.data.values.toList())
             }else {
                  RequestState.Error("Error fetching data")
